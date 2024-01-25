@@ -1,7 +1,7 @@
 pipeline {
   agent any 
   stages {
-    stage('Stage1'){
+    stage('Stage 1') {
       steps {
         echo 'Ciao dalla pipeline'
         sh 'hostname'
